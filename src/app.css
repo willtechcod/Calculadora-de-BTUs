@@ -1,0 +1,72 @@
+.app{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./img/capa.png');
+
+}
+
+h1{
+    font-size: 50px;
+    color: #301cad;
+}
+
+span{
+    margin: 12px 0;
+    color: #301cad;
+    font-weight: bold;
+}
+
+.area-input{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-input input{
+    width: 100%;
+    margin-bottom: 12px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #121212;
+    border: 0;
+    padding: 0 12px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.area-input button{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    background-color: #357AFF;
+    color: #FFF;
+    font-size: 18px;
+}
+
+h2{
+    margin-top: 28px;
+    color: rgba(0,0,0,0.7);
+}
+
+
+
+select{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: #121212;
+    color: #FFF;
+}
+
+footer{
+    margin-top: 250px;
+    margin-bottom: 10px;
+}
